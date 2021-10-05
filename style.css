@@ -2,11 +2,24 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 section{
     height: 500px;
+    padding-bottom:100px ;
+    
 }
 .name-highlight{
+ 
     color:orange;
+
 }
 .half-width{
     width: 40%;
@@ -15,9 +28,22 @@ section{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 95%;
 }
 .top-banner{
     background-repeat: no-repeat;
- background-image:url("images/top-banner.png");
+    background-image:url("images/top-banner.png");
+}
+.link-button{
+text-decoration: none;
+background-color: aqua;
+padding: 10PX 20PX;
+border-radius: 5px;
+color: navy;
+font-weight: 700;
+}
+.Dream{
+    background-repeat: no-repeat;
+    background-image:url("images/dream-bg.png");
+    background-position: right;
 }
